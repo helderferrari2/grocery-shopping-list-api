@@ -1,0 +1,147 @@
+[
+  {
+    "category": "mercearia",
+    "items": [
+      { "name": "Açúcar" },
+      { "name": "Achocolatado" },
+      { "name": "Arroz" },
+      { "name": "Azeite" },
+      { "name": "Biscoito" },
+      { "name": "Bolacha" },
+      { "name": "Café" },
+      { "name": "Chá" },
+      { "name": "Farinha de milho" },
+      { "name": "Farinha de mandioca" },
+      { "name": "Farinha de trigo" },
+      { "name": "Farofa" },
+      { "name": "Feijão" },
+      { "name": "Fermento" },
+      { "name": "Fubá" },
+      { "name": "Maionese" },
+      { "name": "Leite em pó" },
+      { "name": "Creme de leite" },
+      { "name": "Leite condensado" },
+      { "name": "Ervilha" },
+      { "name": "Milho verde" },
+      { "name": "Macarrão" },
+      { "name": "Manteiga" },
+      { "name": "Molho de tomate" },
+      { "name": "Sardinha" },
+      { "name": "Pão de forma" },
+      { "name": "Pão frances" },
+      { "name": "Farinha de rosca" },
+      { "name": "Pipoca" },
+      { "name": "Óleo" },
+      { "name": "Queijo ralado" },
+      { "name": "Sal" },
+      { "name": "Temperos" }
+    ]
+  },
+  {
+    "category": "limpeza",
+    "items": [
+      { "name": "Água sanitária" },
+      { "name": "Álcool" },
+      { "name": "Amaciante" },
+      { "name": "Desinfetante" },
+      { "name": "Detergente" },
+      { "name": "Esponja de aço" },
+      { "name": "Esponja de pia" },
+      { "name": "Lustra móveis" },
+      { "name": "Tira manchas" },
+      { "name": "Sabão em pó" },
+      { "name": "Sabão liquido" },
+      { "name": "Saco de lixo" }
+    ]
+  },
+  {
+    "category": "higiene pessoal",
+    "items": [
+      { "name": "Absorventes" },
+      { "name": "Água oxigenada" },
+      { "name": "Algodão" },
+      { "name": "Barbeador" },
+      { "name": "Condicionador" },
+      { "name": "Creme de barbear" },
+      { "name": "Creme dental" },
+      { "name": "Desodorante" },
+      { "name": "Escova de dente" },
+      { "name": "Fio dental" },
+      { "name": "Cotonete" },
+      { "name": "Papel higiênico" },
+      { "name": "Sabonete" },
+      { "name": "Shampoo" }
+    ]
+  },
+  {
+    "category": "bebidas",
+    "items": [
+      { "name": "Água" },
+      { "name": "Cerveja" },
+      { "name": "Refrigerante" },
+      { "name": "Suco" },
+      { "name": "Vinho" }
+    ]
+  },
+  {
+    "category": "carnes",
+    "items": [
+      { "name": "Peixe" },
+      { "name": "Frango" },
+      { "name": "Carne" },
+      { "name": "Porco" },
+      { "name": "Salsicha" },
+      { "name": "Calabresa" },
+      { "name": "Bacon" },
+      { "name": "Linguiça" },
+      { "name": "Hambúrguer" }
+    ]
+  },
+  {
+    "category": "hortifruti",
+    "items": [
+      { "name": "Alface" },
+      { "name": "Couve" },
+      { "name": "Batata" },
+      { "name": "Tomate" },
+      { "name": "Cenoura" },
+      { "name": "Beterraba" },
+      { "name": "Mandioca" },
+      { "name": "Chuchu" },
+      { "name": "Espinafre" },
+      { "name": "Banana" },
+      { "name": "Uva" },
+      { "name": "Abacate" },
+      { "name": "Mamão" },
+      { "name": "Melancia" },
+      { "name": "Melão" },
+      { "name": "Salsa" },
+      { "name": "Cheiro verde" },
+      { "name": "Cebola" }
+    ]
+  },
+  {
+    "category": "laticínios",
+    "items": [
+      { "name": "Queijo" },
+      { "name": "Mussarela" },
+      { "name": "Manteiga" },
+      { "name": "Presunto" },
+      { "name": "Iogurte" },
+      { "name": "Leite" },
+      { "name": "Ovos" },
+      { "name": "Requeijão" },
+      { "name": "Danonão grosso" }
+    ]
+  },
+  {
+    "category": "diversos",
+    "items": [
+      { "name": "Ração" },
+      { "name": "Petiscos" },
+      { "name": "Tapete higiênico" },
+      { "name": "Papel toalha" },
+      { "name": "Guardanapo" }
+    ]
+  }
+]
