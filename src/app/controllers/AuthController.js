@@ -21,4 +21,16 @@ module.exports = {
       return response.status(400).json({ error: 'Failed on Login' });
     }
   },
+  async me(request, response) {
+    try {
+      const user = await User.findByPk(request.user_id);
+      if (!user) {
+        return response.status(401).json({ error: 'User not found' });
+      }
+
+      return response.json(user);
+    } catch (e) {
+      return response.status(401).json({ error: 'Unauthenticated' });
+    }
+  },
 };

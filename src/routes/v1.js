@@ -21,6 +21,7 @@ routes.post('/login', validate('auth.login'), AuthController.authenticate);
  * PRIVATE ROUTES
  */
 routes.use(AuthenticateMiddleware);
+routes.get('/me', AuthController.me);
 routes.get('/items', ItemController.index);
 routes.put('/users/:id', validate('users.update'), UserController.update);
 routes.delete('/users/:id', UserController.delete);
