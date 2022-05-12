@@ -26,7 +26,7 @@ module.exports = {
 
   async show(request, response) {
     try {
-      const list = await List.findByPk(request.params.list_id, { include: [{ model: ListItem, as: 'list-items' }] });
+      const list = await List.findByPk(request.params.list_id, { include: [{ model: ListItem, as: 'list_items' }] });
       if (!list) {
         return response.status(404).json({ error: 'List not found' });
       }

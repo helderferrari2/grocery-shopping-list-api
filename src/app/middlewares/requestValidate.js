@@ -44,8 +44,8 @@ const schemas = (method) => {
         list_id: Yup.number().required().positive().integer(),
         checked: Yup.boolean(),
         name: Yup.string().required().min(1),
-        category: Yup.string(),
-        price: Yup.number().positive(),
+        category: Yup.string().nullable(true),
+        price: Yup.number().nullable(true),
         quantity: Yup.number().positive().integer(),
       });
 
