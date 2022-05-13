@@ -20,13 +20,20 @@ module.exports = {
       const listItem = await ListItem.create(payload);
       return response.json(listItem);
     } catch (e) {
-      return response.status(400).json({ error: 'Failed on store new list item' });
+      return response
+        .status(400)
+        .json({ error: 'Failed on store new list item' });
     }
   },
 
   async show(request, response) {
     try {
-      const list = await List.findByPk(request.params.list_id, { include: [{ model: ListItem, as: 'list_items' }] });
+      const list = await List.findByPk(request.params.list_id, {
+        include: [{ model: ListItem, as: 'list_items' }],
+        order: [
+          [{ model: ListItem, as: 'list_items' }, 'checked', 'ASC'],
+        ],
+      });
       if (!list) {
         return response.status(404).json({ error: 'List not found' });
       }
