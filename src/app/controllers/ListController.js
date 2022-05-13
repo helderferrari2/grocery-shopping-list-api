@@ -3,7 +3,10 @@ const { List } = require('../models');
 module.exports = {
   async index(request, response) {
     try {
-      const lists = await List.findAll({ order: [['id', 'DESC']] });
+      const lists = await List.findAll({
+        where: { user_id: request.user_id },
+        order: [['id', 'DESC']],
+      });
       return response.json(lists);
     } catch (e) {
       return response.status(400).json({ error: 'Something went wrong' });
